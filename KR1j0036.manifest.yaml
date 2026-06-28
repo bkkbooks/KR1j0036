@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR1j0036/v1
+canonical_location: https://kanripo.org/bkk/KR1j0036/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 龍龕手鑑
+  date: '2015-09-11 23:42:49.690776'
+  source:
+    repository: kanripo
+    path: KR1j0036
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- {short: SBCK, label: 【四部叢刊】}
+assets:
+  parts:
+  - {seq: 0, filename: KR1j0036_000.yaml, hash: 'sha256:4f0ef5f9f92c517eec5a14676f75a73d27948cc2d061205377c59ac52a2ba396'}
+  - {seq: 1, filename: KR1j0036_001.yaml, hash: 'sha256:f9f2d4ae64b0e2d9b5f454500cc7d764946a657fa879e818e6e228a2689dc604'}
+  - {seq: 2, filename: KR1j0036_002.yaml, hash: 'sha256:4d456f71e27f9b269df8026b5ebf3493fa5c0ae7f591e0c3438063ee806fa139'}
+  - {seq: 3, filename: KR1j0036_003.yaml, hash: 'sha256:2b29d6a1172dcfb82c9117ba9b8fa2fac5a8f4ce41a0139fac84e7a4d2b54e77'}
+  - {seq: 4, filename: KR1j0036_004.yaml, hash: 'sha256:4a948fb01771a835efeab89cb3f089c45597f41905334f6b01f22f0624128c05'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1j0036_000.markers.yaml, hash: 'sha256:f6e2bbf35559d0a25e92a0101c64b91247a70d416418828b7c2d4eb3eb027cb9'}
+  - {seq: 1, role: markers, filename: assets/KR1j0036_001.markers.yaml, hash: 'sha256:85623cba04238f96086a1f544567a1620ca4ae1e74f95ec88a52abadcb44d1ec'}
+  - {seq: 2, role: markers, filename: assets/KR1j0036_002.markers.yaml, hash: 'sha256:c32e8950fda32d47a45b6bd814836d2f39606ddd0dce08cc392b8118f68b46b6'}
+  - {seq: 3, role: markers, filename: assets/KR1j0036_003.markers.yaml, hash: 'sha256:927ba584cc33b286a89ef92bae8b81185330e953f2b6a91befd8b5d5c54affed'}
+  - {seq: 4, role: markers, filename: assets/KR1j0036_004.markers.yaml, hash: 'sha256:b784b88faec8ad8fd9db87d24305319cd14607803cca2baa8a8a744b6eb6968b'}
+table_of_contents:
+- ref: {seq: 0, marker_id: KR1j0036_SBCK_000-1a, span: [body, 0, 577]}
+  label: juan 000
+  type: section
+  level: 1
+- ref: {seq: 1, marker_id: KR1j0036_SBCK_001-1a, span: [body, 0, 41081]}
+  label: juan 001
+  type: section
+  level: 1
+- ref: {seq: 2, marker_id: KR1j0036_SBCK_002-1a, span: [body, 0, 31697]}
+  label: juan 002
+  type: section
+  level: 1
+- ref: {seq: 3, marker_id: KR1j0036_SBCK_003-1a, span: [body, 0, 4661]}
+  label: juan 003
+  type: section
+  level: 1
+- ref: {seq: 4, marker_id: KR1j0036_SBCK_004-1a, span: [body, 0, 17551]}
+  label: juan 004
+  type: section
+  level: 1
+hash: sha256:49886872d8e5dddfdfc97f856b8e35c28190c16ba5f7b0678253b7c802c50c8e
